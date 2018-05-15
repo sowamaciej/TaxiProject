@@ -4,12 +4,22 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>ASP TAXI</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
+    <div id="top">       
+    </div>
+    <div id="main">
+        <div id="menu">
+            <ul>
+                <li><a href="#call">Zamów taxi</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
         </div>
-    </form>
+    </div>
+
+
 </body>
 </html>

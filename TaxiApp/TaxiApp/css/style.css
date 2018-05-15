@@ -1,0 +1,52 @@
+﻿body {
+    background-image: url('../images/background.png');
+}
+
+#top {
+    background-image: url('../images/asptaxi.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0px;
+    right: 10px;
+    left: 10px;
+    height: 120px;
+}
+#menu {
+    width: 100%;
+}
+#menu ul {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eab45d;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: #111;
+    font-family: 'Arial Rounded MT';
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #222;
+    color: #eeeeee;
+}
+
+#main {
+    background: linear-gradient(#222, #444);
+    position: absolute;
+    top: 150px;
+    bottom: 50px;
+    right: 70px;
+    left: 70px;
+
+}

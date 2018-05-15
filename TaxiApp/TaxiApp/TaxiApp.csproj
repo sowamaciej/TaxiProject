@@ -75,6 +75,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\TaxiDB.mdf" />
+    <Content Include="App_Data\TaxiDB_log.ldf">
+      <DependentUpon>TaxiDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\style.css" />
+    <Content Include="images\background.png" />
+    <Content Include="images\asptaxi.png" />
     <Content Include="MainPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
